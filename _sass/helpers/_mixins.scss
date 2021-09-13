@@ -20,17 +20,24 @@
     font-weight: $font-weight;
 }
 
+@mixin ff--serif {
+    font-family: 'Space Mono', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: normal;
+}
+
 @mixin ff--code {
     font-family: 'Roboto Mono', monospace;
 }
 
 // Font sizing
 @mixin fs--title {
+    @include ff--serif;
     line-height: 1.5;
     font-size: 4.8rem; // 48px
 }
 
 @mixin fs--heading-1 {
+    @include ff--serif;
     line-height: 1.5;
     font-size: 3.2rem; // 32px
 }
