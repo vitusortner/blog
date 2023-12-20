@@ -6,7 +6,7 @@ author: Vitus Ortner
 email: vitusortner.dev@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vitus.dev" # the base hostname & protocol for your site
-twitter_username: vitusortner
+threads_username: doxiu
 github_username:  vitusortner
 
 # Build settings
